@@ -4,7 +4,7 @@ User Stories: Love 'Ye or hate 'Ye, you can't deny his hardwork and passion. In 
 
 My database (crudye_db) will consist of two tables. One table named kanye_types will consist of four types: old_kanye, straight_from_the_soul_kanye, so_kanye, new_kanye. The keys to this table are id (SERIAL PRIMARY KEY), type (TEXT NOT NULL) and img_url/video_url(TEXT). 
 
-The second table will hold instances of various Kanye types (aptly titled kanye_instances) and will have these keys: id (SERIAL PRIMARY KEY), context (TEXT NOT NULL) and kanye_types_id (INT REFERENCES kanye_types(id)), the last being the foreign key that links the two tables.
+The second table will hold instances of various Kanye types (aptly titled kanye_instances) and will have these keys: id (SERIAL PRIMARY KEY), context (TEXT NOT NULL), img_url/video_url(TEXT) and kanye_types_id (INT REFERENCES kanye_types(id)), the last being the foreign key that links the two tables.
 
 The way the USER will be able to CRUD Kanye is as follows.
 
@@ -15,6 +15,7 @@ READ/UPDATE/DELETE: The user will have the ability to getAllKanyeTypes,  getOneK
 Sounds wacky? To our befuddlement, Kanye is Kanye.
 
 Wireframes will walk you through the 'views' set up.
+[Wireframes](images/CRUDYe-wireframe.jpg?raw=true "Wireframes")
 
 
 
