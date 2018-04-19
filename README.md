@@ -14,20 +14,20 @@ READ/UPDATE/DELETE: The user will have the ability to getAllKanyeTypes,  getOneK
 
 Sounds wacky? To our befuddlement, Kanye is Kanye.
 
-Wireframes will walk you through the 'views' set up:
+Wireframes will walk you through the 'views' set up:<br />
 [Wireframes](images/CRUDYe-wireframe.jpg?raw=true "Wireframes")
 
-Priority-Matrix:
+Priority-Matrix:<br />
 [Priority-Matrix](CRUDYe-Priority-Matrix.jpg?raw=true "Priority-Matrix")
 
 Time Management:
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| Server | H |  >1hr | -- | -- |
-| Data | H | 2-3hrs | -- | -- |
-| Model | H |  2hrs | -- | -- |
-| Routes | H |  2hrs | -- | -- |
-| CSS | M |  3hrs+ | -- | -- |
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |<br />
+| Server | H |  >1hr | -- | -- |<br />
+| Data | H | 2-3hrs | -- | -- |<br />
+| Model | H |  2hrs | -- | -- |<br />
+| Routes | H |  2hrs | -- | -- |<br />
+| CSS | M |  3hrs+ | -- | -- |<br />
 
 
 
