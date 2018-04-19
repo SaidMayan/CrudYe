@@ -14,7 +14,7 @@ READ/UPDATE/DELETE: The user will have the ability to getAllKanyeTypes,  getOneK
 
 Sounds wacky? To our befuddlement, Kanye is Kanye.
 
-Wireframes will walk you through the 'views' set up.
+Wireframes will walk you through the 'views' set up:
 [Wireframes](images/CRUDYe-wireframe.jpg?raw=true "Wireframes")
 
 
