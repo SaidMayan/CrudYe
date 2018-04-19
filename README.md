@@ -17,6 +17,19 @@ Sounds wacky? To our befuddlement, Kanye is Kanye.
 Wireframes will walk you through the 'views' set up:
 [Wireframes](images/CRUDYe-wireframe.jpg?raw=true "Wireframes")
 
+Priority-Matrix:
+[Priority-Matrix](CRUDYe-Priority-Matrix.jpg?raw=true "Priority-Matrix")
+
+Time Management:
+
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Server | H |  >1hr | -- | -- |
+| Data | H | 2-3hrs | -- | -- |
+| Model | H |  2hrs | -- | -- |
+| Routes | H |  2hrs | -- | -- |
+| CSS | M |  3hrs+ | -- | -- |
+
+
 
 
 
