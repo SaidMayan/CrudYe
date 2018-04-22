@@ -1,0 +1,13 @@
+<% include ../../partials/boilerplate %>
+
+<% kanye_types.forEach((kanye_type) => { %>
+<div class="typeHeader">
+  <a href="/kanye_types/<%=kanye_type.id%>"><h2><%=kanye_type.kanye_type%></h2></a>
+</div>
+<div class="typeImg">
+  <img src="<%=kanye_type.img_url%>" />
+</div>
+
+<% }) %>
+
+<% include ../../partials/end %>

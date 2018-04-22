@@ -1,0 +1,14 @@
+<% include ../../partials/boilerplate %>
+
+<div class="typeHeader">
+  <h1><%= kanye_types.kanye_type%></h1>
+</div>
+
+<div class="kanye_instance">
+  <% kanye_instances.forEach((kanye_instance) => { %>
+    <h1><%=kanye_instance.context%></h1>
+  <% }) %>
+</div>
+
+
+<% include ../../partials/end %>

@@ -1,0 +1,20 @@
+<% include ../../partials/boilerplate %>
+
+<div class="form-page">
+<div class="add">
+
+<form action="/kanye_instances" method="POST">
+  <input type="text" name="context" placeholder="context" /><br>
+  <input type="text" name="img_url" placeholder="img_url" /><br>
+  <select name="kanye_type_id">
+    <% kanye_types.forEach((kanye_type) => { %>
+      <option value="<%=kanye_type.id%>"><%=kanye_type.kanye_type%></option>
+    <% }) %>
+  </select> <br>
+  <input type="submit" value="Add kanye_instance" />
+</form>
+</div>
+<a href="/kanye_instances"> Back to kanye_instances </a>
+</div>
+
+<% include ../../partials/end %>
