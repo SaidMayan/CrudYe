@@ -22,15 +22,19 @@ function sendKanye_types(req, res) {
 }
 
 function editKanye_instance(req, res) {
-  console.log('hello');
   kanye_instances = res.locals.kanye_instances;
   res.render(`kanye_instances/edit`, {
     kanye_instances: res.locals.kanye_instances
   })
 }
 
+function sendUpdatedInstance(req, res) {
+  kanye_instances = res.locals.kanye_instances;
+  res.redirect(`/kanye_instances/${res.locals.kanye_instances.id}`);
+}
+
 function deleteKanye_instance(req, res) {
-  res.redirect(`kanye_instances/index`);
+  res.redirect(`/kanye_instances/${res.locals.kanye_instances.id}`);
 }
 
 module.exports = {
@@ -39,5 +43,6 @@ module.exports = {
   sendCreateKanye_instance,
   sendKanye_types,
   editKanye_instance,
+  sendUpdatedInstance,
   deleteKanye_instance
 }

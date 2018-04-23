@@ -61,7 +61,10 @@ function update(req, res, next) {
   req.body.id = req.params.id;
   kanye_instancesDb.updateKanyeInstance(req.body)
     .then(data => {
-      res.send('Edited successfully');
+      console.log(data);
+      res.locals.kanye_instances = data;
+      // res.send('Edited successfully');
+      next();
     })
     .catch(err=> {
       next(err);
@@ -71,7 +74,7 @@ function update(req, res, next) {
 function destroy(req, res) {
   kanye_instancesDb.deleteKanyeInstance(req.params.id)
     .then(() => {
-      res.send(`Deleted successfully`);
+      res.redirect(`/kanye_instances`);
     })
     .catch(err => {
       res.status(500).json({

@@ -15,9 +15,9 @@ function getOneKanyeType(id) {
 
 function getInstanceType(id) {
   const queryPromise = db.any(`
-  SELECT * FROM kanye_instances
-  JOIN kanye_types
-  ON kanye_types.id = kanye_instances.kanye_type_id
+  SELECT * FROM kanye_types
+  JOIN kanye_instances
+  ON kanye_instances.kanye_type_id = kanye_types.id
   WHERE kanye_instances.kanye_type_id = $1`, id);
   return queryPromise;
 }

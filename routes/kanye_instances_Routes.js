@@ -21,7 +21,7 @@ kanye_instances_Router.route('/new')
 
 kanye_instances_Router.route('/:id')
   .get(kanye_instances_Controller.getOne, kanye_instances_viewController.sendOneKanye_instance)
-  .put(kanye_instances_Controller.update)
+  .put(kanye_instances_Controller.update, kanye_instances_viewController.sendUpdatedInstance)
   .delete(kanye_instances_Controller.destroy, kanye_instances_viewController.deleteKanye_instance)
 
 

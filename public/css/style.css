@@ -122,7 +122,14 @@ align-items: center;
 justify-content: space-around;
 }
 
-.modify{
+.modify {
   border: none;
 }
 
+.modify:focus {
+  outline:0;
+}
+
+.modify:hover {
+  background-color: #F8F8F8;
+}

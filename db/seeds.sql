@@ -18,7 +18,7 @@ kanye_type_id INT REFERENCES kanye_types(id)
 -- create kanye_types
 INSERT INTO kanye_types (kanye_type, img_url)
 VALUES
-('Old Kanye', 'https://i.pinimg.com/originals/8a/51/53/8a5153d179a09c5591170546a0cf4793.jpg'),
+('Old Kanye', 'https://static.highsnobiety.com/wp-content/uploads/2008/11/kanye-west-808-heartbreak-cover-kaws-480x490.jpg'),
 ('Straight from-the-Go Kanye', 'http://pixel.nymag.com/imgs/daily/entertainment/upload/2010/11/kanye/22_condokanyecovers_2_face.nocrop.w557.h670.jpg'),
 ('So Kanye', 'http://pixel.nymag.com/imgs/daily/entertainment/upload/2010/11/kanye/22_condokanyecovers_4_power.nocrop.w559.h670.jpg'),
 ('New Kanye', 'http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/02/Ca9XF0EWEAApIbG-920x920.jpg');
