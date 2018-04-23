@@ -5,7 +5,7 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px 10px;
     padding: 0;
 }
 
@@ -16,10 +16,16 @@ a {
 }
 
 a:hover {
-  background-color: grey;
+  background-color: #F8F8F8;
 }
 
-.navBar{
+.home-image {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.navBar {
  display: flex;
  list-style-type: none;
  flex-flow: row wrap;
@@ -61,6 +67,7 @@ h1 {
 display: flex;
 flex-direction: column;
 align-items: center;
+margin: 10px 10px;
 }
 
 .kanye_instance {
@@ -68,3 +75,54 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
+.form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-row input {
+flex: 1;
+}
+
+form label {
+  padding-right: 3px;
+}
+
+.edit-image {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px;
+}
+
+.delete-image {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px;
+}
+
+.button {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.showEditDelete {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.modify{
+  border: none;
+}
+

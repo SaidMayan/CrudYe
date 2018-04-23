@@ -61,7 +61,7 @@ function update(req, res, next) {
   req.body.id = req.params.id;
   kanye_instancesDb.updateKanyeInstance(req.body)
     .then(data => {
-      res.send('Edited successfuly');
+      res.send('Edited successfully');
     })
     .catch(err=> {
       next(err);

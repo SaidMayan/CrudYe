@@ -18,10 +18,10 @@ kanye_type_id INT REFERENCES kanye_types(id)
 -- create kanye_types
 INSERT INTO kanye_types (kanye_type, img_url)
 VALUES
-('Old Kanye', 'http://liliagjerstad.com/wp-content/uploads/tumblr_mhxc0oQhdw1ruqbd4o1_500.jpg'),
-('Straight from the Go Kanye', 'https://www.bet.com/shows/bet-presents-love-happiness-an-obama-celebration/2016/more/from-common-s-house-to-the-white-house/_jcr_content/bodycopycontainer/listiclecontainer/listicleitem_3/embedded_image/image.custom1200x970.dimg/__1477588511040__1477588481496/102716-shows-bet-presents-love-happiness-an-obama-celebration-2016-more-from-common-s-house-to-the-white-house-Kanye.jpg'),
-('So Kanye', 'https://www.billboard.com/files/styles/article_main_image/public/media/kanye-west-taylor-swift-2009-vmas-billboard-650.jpg'),
-('New Kanye', 'https://akns-images.eonline.com/eol_images/Entire_Site/2017111/rs_600x600-170211120220-600.kanye-west.cm.21117.jpg');
+('Old Kanye', 'https://i.pinimg.com/originals/8a/51/53/8a5153d179a09c5591170546a0cf4793.jpg'),
+('Straight from-the-Go Kanye', 'http://pixel.nymag.com/imgs/daily/entertainment/upload/2010/11/kanye/22_condokanyecovers_2_face.nocrop.w557.h670.jpg'),
+('So Kanye', 'http://pixel.nymag.com/imgs/daily/entertainment/upload/2010/11/kanye/22_condokanyecovers_4_power.nocrop.w559.h670.jpg'),
+('New Kanye', 'http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/02/Ca9XF0EWEAApIbG-920x920.jpg');
 
 -- create kanye_instances
 INSERT INTO kanye_instances (context, img_url, kanye_type_id)

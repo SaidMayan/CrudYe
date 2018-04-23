@@ -1,19 +1,32 @@
 <% include ../../partials/boilerplate %>
 
-<div class="form-page">
+<div class="edit-image">
+  <img src="http://78.media.tumblr.com/tumblr_lu3wg1fqkO1r0eh9ro1_500.gif">
+</div>
+<div class="form">
 <div class="add">
 
 <form action="/kanye_instances/<%=kanye_instances.id%>?_method=PUT" method="POST">
+  <div class="form-row">
+  <label>Context of a Kanye instance: </label>
   <input type="text" name="context" value="<%=kanye_instances.context%>" /><br>
+  </div>
+  <div class="form-row">
+  <label>Link to an image: </label>
   <input type="text" name="image" value="<%=kanye_instances.img_url%>" /><br>
+  </div>
+  <label>Which type of Kanye does instance belong to: </label>
   <select name="kanye_type_id">
     <% kanye_types.forEach((kanye_type) => { %>
      <option value="<%=kanye_type.id%>"><%=kanye_type.kanye_type%></option>
     <% }) %>
   </select> <br>
-  <input type="submit" value="Edit kanye_instance"/>
+  <div class="button">
+  <input class="modify" type="submit" value="Edit kanye_instance"/>
+  </div>
 </form>
 </div>
+<br>
 <a href="/kanye_instances"> Back to kanye_instances </a>
 </div>
 
