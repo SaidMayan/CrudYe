@@ -23,6 +23,14 @@ a:hover {
   position: absolute;
   bottom: 50px;
   right: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 400px) {
+  .home-image {
+    left: auto;
+  }
 }
 
 .navBar {
