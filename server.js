@@ -4,6 +4,7 @@ const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
+const env = require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 
 const app = express();
