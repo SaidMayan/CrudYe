@@ -1,12 +1,12 @@
 # CRUDYe
 
-## Motivation
+## Motivation/Application
 
-Love 'Ye or hate 'Ye, you can't deny his hardwork and passion. In my humble opinion, he is a one of the most dynamic character-types of our generation... And so, for my CRUD app, I thought it would be a fun idea to document the many Kanyes that we've all been witness to over the years. 
+Love 'Ye or hate 'Ye, you can't deny his hardwork and passion. In my humble opinion, he is a one of the most dynamic character-types of our generation... And so, for my CRUD app, I thought it would be a fun idea to document the many 'Kanyes types' that we've witnessed over the years. 
 
-My database (crudye_db) will consist of two tables. One table named kanye_types will consist of four types: old_kanye, straight_from_the_soul_kanye, so_kanye, new_kanye. The keys to this table are id (SERIAL PRIMARY KEY), kanye_type (TEXT NOT NULL) and img_url/video_url(TEXT). 
+My database (crudye) will consist of two tables: one table (named 'kanye_types') will consist of four types: 'Old Kanye,' 'Straight from-the-Go Kanye,' 'So Kanye,' 'New kanye.' The keys to this table are id (SERIAL PRIMARY KEY), kanye_type (TEXT NOT NULL) and img_url(TEXT). 
 
-The second table will hold instances of various Kanye types (aptly titled kanye_instances) and will have these keys: id (SERIAL PRIMARY KEY), context (TEXT NOT NULL), img_url/video_url(TEXT) and kanye_types_id (INT REFERENCES kanye_types(id)), the last being the foreign key that links the two tables.
+The second table will hold instances of various Kanye types (aptly titled kanye_instances) and will have the following keys: id (SERIAL PRIMARY KEY), context (TEXT NOT NULL), img_url(TEXT) and kanye_types_id (INT REFERENCES kanye_types(id)), the last being the foreign key which links the two tables.
 
 ## User Story
 
