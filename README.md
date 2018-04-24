@@ -43,6 +43,16 @@ Priority-Matrix:<br />
 | Routes | H |  2hrs | 2hrs | 2hrs |<br />
 | CSS | M |  3hrs+ | 2hrs | 2hrs |<br />
 
+## MVP
+- Get full CRUD set-up.
+- CSS to make app look presentable.
+
+## Post-MVP
+- Implement newsApi to give you latest Kanye Headlines with images, so you'd be able to
+add instances.
+- Add more to the database to get a complete Kanye West Timeline.
+- Get Auth register/login, which is currently a WIP.
+
 
 
 
