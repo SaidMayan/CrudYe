@@ -51,10 +51,12 @@ a:hover {
   height: auto;
 }
 
-@media (max-width: 400px) {
-  .home-image {
-    left: auto;
-  }
+
+@media (max-width:750px) {
+    .home-image {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .navBar {
@@ -66,9 +68,22 @@ a:hover {
  padding-right: 15px;
 }
 
+@media (max-width:750px) {
+    .navBar {
+        flex-flow: column wrap;
+    }
+}
+
 img {
   height: 312.5px;
   width: auto;
+}
+
+@media (max-width:750px) {
+    img {
+        width: 90%;
+        height: auto;
+    }
 }
 
 .typeImg {
@@ -101,6 +116,11 @@ flex-direction: column;
 align-items: center;
 margin: 10px 10px;
 }
+
+h2 {
+
+}
+
 
 .kanye_instance {
 display: flex;
