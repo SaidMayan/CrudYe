@@ -11,8 +11,32 @@ ul {
 
 
 a {
-  text-decoration:none;
+  text-decoration: none;
   color: inherit;
+  font-size: 22.5px;
+}
+
+input.modify {
+  font-size: 20px;
+}
+
+form.put {
+  border: none;
+}
+
+form.delete {
+  border: none;
+}
+
+label {
+  font-size: 18px;
+}
+
+form {
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
 }
 
 a:hover {
@@ -43,7 +67,7 @@ a:hover {
 }
 
 img {
-  height: 250px;
+  height: 312.5px;
   width: auto;
 }
 
